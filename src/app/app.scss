@@ -1,0 +1,19 @@
+nav{
+    background-color: beige;
+    padding:10px;
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    color:black;
+    margin-left: 20px;
+    text-decoration: none;
+    transition:transform 0.3s ease;
+    
+}
+nav a:hover{
+    color: brown;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transform: scale(1.2);
+}
